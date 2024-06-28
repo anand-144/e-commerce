@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# NikeVibe E-commerce Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![NikeVibe Website](https://i.postimg.cc/sXWdKs0L/Screenshot-2024-06-28-145808.png)
 
-## Available Scripts
+NikeVibe is an online shoe store built with React.js and Material-UI, integrated with Commerce.js and Stripe for seamless payment processing.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Product Listing with Pagination:** View a list of available shoes with pagination for easy browsing.
+  
+- **Shopping Cart:** Add products to your cart, review items, and adjust quantities as needed.
+  
+- **Checkout Option:** Proceed to checkout securely with integrated Stripe payment processing.
+  
+- **Edit Cart Option:** Modify cart contents, update quantities, or remove items before finalizing your purchase.
+  
+- **Shipping and Payment Details Section:** Enter shipping information and securely process payments through Stripe.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React.js:** Frontend development framework for building interactive user interfaces.
+  
+- **Material-UI:** React component library for consistent and responsive UI design.
+  
+- **React Icons:** Icon library for adding scalable icons to enhance user experience.
+  
+- **Commerce.js:** Headless commerce platform providing APIs for managing product catalog, cart, and checkout.
+  
+- **Stripe:** Payment gateway for securely processing credit card payments.
+- 
+## Installation
 
-### `npm test`
+1. **Clone the repository:**
+**Git Clone** https://github.com/anand-144/e-commerce.git
+- cd nikevibe
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+2. **Install dependencies:**
+- npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Configure environment variables:**
+- Set up your `.env` file with credentials for Commerce.js and Stripe.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Start the application:**
+- npm start
 
-### `npm run eject`
+  
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Access the website locally at `http://localhost:3000` after starting the server.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Explore the product catalog, add items to your cart, and proceed through the checkout process.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Ensure your Commerce.js and Stripe configurations are correctly set up for full functionality.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
