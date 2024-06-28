@@ -2,7 +2,7 @@ import React from 'react';
 import { AppBar, Toolbar, IconButton, Badge, Typography } from '@material-ui/core';
 import { CiShoppingCart } from 'react-icons/ci'; // Using Material-UI's ShoppingCart icon
 import { Link , useLocation } from 'react-router-dom';
-import logo from '../../assets/logo.gif';
+import logo from '../../assets/favicon.png';
 import useStyles from './style';
 
 const Navbar = ({ totalItems }) => {
@@ -14,7 +14,7 @@ const Navbar = ({ totalItems }) => {
       <Toolbar>
         <Typography component={Link} to='/' variant='h6' className={classes.title} color='textPrimary'>
           <img src={logo} alt="logo" className={classes.image} />
-          Commerce.js
+          NikeVibe
         </Typography>
         <div className={classes.grow} />
         {location.pathname === '/' && (
