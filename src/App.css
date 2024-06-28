@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Setting the font family for the root element */
+:root {
+    --font-family: 'Exo', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Applying the font family to all elements */
+html, body {
+    font-family: var(--font-family);
+    font-size: 16px; /* Base font size */
+    line-height: 1.5; /* Line height for text */
+    scroll-behavior: smooth; /* Smooth scrolling behavior */
+    margin: 0; /* Remove default margin */
+    height: 100%; /* Ensure full height for flex centering */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Example of styling specific elements */
+h1, h2, h3 {
+    font-weight: normal; /* Resetting font weight */
+    color: #333; /* Text color */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Styling links */
+a {
+    color: #337ab7; /* Link color */
+    text-decoration: none; /* Remove underline */
 }
 
-.App-link {
-  color: #61dafb;
+a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Example of using the custom font variable */
+.custom-heading {
+    font-family: var(--font-family); /* Using custom font variable */
+    font-size: 24px;
+}
+
+/* Centering the loader */
+.loader-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    position: fixed; /* Fixed position to overlay on content */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: background overlay */
+    z-index: 9999; /* Ensure it's on top */
 }
